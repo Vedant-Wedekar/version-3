@@ -1,0 +1,60 @@
+// Famous Andaman beaches for the homepage.
+// TODO: replace images + details with the client's real beach data.
+
+export const BEACHES = [
+  {
+    id: "radhanagar",
+    name: "Radhanagar Beach",
+    island: "Havelock",
+    tag: "Asia's Best Beach",
+    desc: "Soft white sand, turquoise water, and unmatched sunsets — voted Asia's #1 beach by TIME.",
+    bestFor: "Sunsets, Swimming",
+    img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80",
+    featured: true,
+  },
+  {
+    id: "elephant",
+    name: "Elephant Beach",
+    island: "Havelock",
+    tag: "Snorkel Paradise",
+    desc: "Coral reefs in waist-deep water — the easiest place to meet the underwater Andamans.",
+    bestFor: "Snorkeling, Watersports",
+    img: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=900&q=80",
+  },
+  {
+    id: "bharatpur",
+    name: "Bharatpur Beach",
+    island: "Neil",
+    tag: "Family Friendly",
+    desc: "Shallow turquoise water and soft sand — ideal for families and first-time swimmers.",
+    bestFor: "Families, Glass Boats",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAeuQVesyibRBeiSKkitV-5zvBTbpBg0VsNA&s",
+  },
+  {
+    id: "laxmanpur",
+    name: "Laxmanpur Beach",
+    island: "Neil",
+    tag: "Sunset Spot",
+    desc: "Long crescent of pale sand with the calmest sunset views on the east coast.",
+    bestFor: "Sunsets, Walks",
+    img: "https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?w=900&q=80",
+  },
+  {
+    id: "corbyns-cove",
+    name: "Corbyn's Cove",
+    island: "Port Blair",
+    tag: "Closest to City",
+    desc: "Coconut-fringed cove a short drive from Port Blair — perfect quick beach escape.",
+    bestFor: "Watersports, Day Trips",
+    img: "https://images.unsplash.com/photo-1544550581-5f7ceaf7f992?w=900&q=80",
+  },
+  {
+    id: "vijaynagar",
+    name: "Vijaynagar Beach",
+    island: "Havelock",
+    tag: "Hidden Gem",
+    desc: "Quiet stretch shaded by tall mahua trees — fewer crowds, more magic.",
+    bestFor: "Solitude, Reading",
+    img: "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=900&q=80",
+  },
+];

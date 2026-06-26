@@ -1,0 +1,13 @@
+# Andaman Travel — robots.txt
+# Search engines: please index everything except admin and user-only pages.
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /checkout
+Disallow: /booking-confirmed
+Disallow: /my-bookings
+Disallow: /login
+Disallow: /register
+
+Sitemap: https://andaman-travel.vercel.app/sitemap.xml

@@ -1,0 +1,36 @@
+/* @import "tailwindcss"; */
+
+@theme {
+  --color-ocean-50: #ECFEFF;
+  --color-ocean-100: #CFFAFE;
+  --color-ocean-500: #06B6D4;
+  --color-ocean-600: #0891B2;
+  --color-ocean-700: #0E7490;
+  --color-ocean-900: #164E63;
+
+  --color-coral-500: #F97316;
+  --color-coral-600: #EA580C;
+
+  --color-sand: #FEF3C7;
+  --color-ink: #0F172A;
+  --color-cloud: #F8FAFC;
+
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-display: "Fraunces", Georgia, serif;
+
+  --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.06);
+  --shadow-card: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Fraunces:wght@500;600;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background-color: var(--color-cloud);
+  -webkit-font-smoothing: antialiased;
+}
